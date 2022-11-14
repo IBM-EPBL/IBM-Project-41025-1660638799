@@ -1,6 +1,6 @@
 # *IBM-Project-41025-1660638799*
 ## 💌 *Smart Waste Management System For Metropolitan Cities* 💌
-#### *Domain*:IOT
+#### *Domain*: Internet Of Things 🪐🤖
 #### *Team ID*:PNT2022TMID33002
 ### 😇*Team Members*😇
 - *Monalisa G K-Team Leader*
