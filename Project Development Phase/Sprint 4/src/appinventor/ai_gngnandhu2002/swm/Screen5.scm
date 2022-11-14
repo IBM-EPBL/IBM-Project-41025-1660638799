@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"219","Source":"Form","Properties":{"$Name":"Screen5","$Type":"Form","$Version":"30","AlignHorizontal":"3","AlignVertical":"2","AppName":"swm","BackgroundImage":"hd-background-1.webp","Title":"Screen5","Uuid":"0","$Components":[{"$Name":"TextBox1","$Type":"TextBox","$Version":"6","Hint":"Type the message","Uuid":"-991402868"},{"$Name":"Button1","$Type":"Button","$Version":"7","BackgroundColor":"&HFF78DCBB","FontBold":"True","Text":"Send ","Uuid":"8521494"},{"$Name":"NotificationStyle1","$Type":"NotificationStyle","$Version":"1","IconNotification":"emptybin.png","Uuid":"1089605808"}]}}
+|#
