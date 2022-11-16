@@ -1,0 +1,355 @@
+[{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2020-07-04T15:15:09-0300",
+ "nonVisible": "true",
+ "iconName": "aiwebres/notification.png",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "ActionNotification",
+   "description": "With this block it is possible to create up to three action buttons in the notification and in addition, it is possible to add as a \"hyperlink\".",
+   "params": [
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "subtitle",
+     "type": "text"
+    },
+    {
+     "name": "bigText",
+     "type": "boolean"
+    },
+    {
+     "name": "bigPicture",
+     "type": "text"
+    },
+    {
+     "name": "largeIcon",
+     "type": "text"
+    },
+    {
+     "name": "listButtons",
+     "type": "list"
+    },
+    {
+     "name": "startValue",
+     "type": "text"
+    },
+    {
+     "name": "id",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "BigPictureNotification",
+   "description": "Creates a notification with a big picture and in addition it is possible to add title, subtitle and large icon.",
+   "params": [
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "subtitle",
+     "type": "text"
+    },
+    {
+     "name": "bigPicture",
+     "type": "text"
+    },
+    {
+     "name": "largeIcon",
+     "type": "text"
+    },
+    {
+     "name": "startValue",
+     "type": "text"
+    },
+    {
+     "name": "id",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CancelAllNotification",
+   "description": "Cancels all notifications.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CancelMusicNotification",
+   "description": "Delete MediaStyle notification.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "CancelNotification",
+   "description": "Cancels a specific message.",
+   "params": [{
+    "name": "id",
+    "type": "number"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "ClearAllMessage",
+   "description": "When calling the MessageReceiverNotification method, it stores the added messages and to remove, use this method.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ConfirmSendingMessage",
+   "description": "If the user responds to the message in the notification, it will show a loading icon until that block is used.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "GetFavorite",
+   "description": "Gets whether the song is marked as a favorite.",
+   "params": [],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "LargeIconNotification",
+   "description": "Displays a large icon in the notification with title and subtitle.",
+   "params": [
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "subtitle",
+     "type": "text"
+    },
+    {
+     "name": "bigText",
+     "type": "boolean"
+    },
+    {
+     "name": "largeIcon",
+     "type": "text"
+    },
+    {
+     "name": "startValue",
+     "type": "text"
+    },
+    {
+     "name": "id",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "PauseMusicNotification",
+   "description": "Displays notification of MediaStyle with play button.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "PlayMusicNotification",
+   "description": "Displays notification of MediaStyle with pause button.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ReceiverMessageNotification",
+   "description": "Through this block, you can show a notification of a received message with the ability to reply in the bar itself.",
+   "params": [
+    {
+     "name": "group",
+     "type": "text"
+    },
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "sender",
+     "type": "text"
+    },
+    {
+     "name": "timestamp",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SetupMusicNotification",
+   "description": "Starts the MediaStyle notification variables.",
+   "params": [
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "subtitle",
+     "type": "text"
+    },
+    {
+     "name": "largeIcon",
+     "type": "text"
+    },
+    {
+     "name": "favorite",
+     "type": "boolean"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "SimpleNotification",
+   "description": "Creates a simple notification with title and subtitle, capable of displaying large texts in the subtitle.",
+   "params": [
+    {
+     "name": "title",
+     "type": "text"
+    },
+    {
+     "name": "subtitle",
+     "type": "text"
+    },
+    {
+     "name": "bigText",
+     "type": "boolean"
+    },
+    {
+     "name": "startValue",
+     "type": "text"
+    },
+    {
+     "name": "id",
+     "type": "number"
+    }
+   ]
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Channel",
+   "description": "Starting in Android 8.0 (API level 26), all notifications must be assigned to a channel.",
+   "type": "text"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ColorNotification",
+   "description": "Set priority notification.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "IconNotification",
+   "description": "Set Icon notification.",
+   "type": "text"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "ImportanceChannel",
+   "description": "Set priority channel.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "PriorityNotification",
+   "description": "Set priority notification.",
+   "type": "number"
+  }
+ ],
+ "helpUrl": "https://github.com/jarlisson2/NotificationStyleAIX",
+ "type": "com.jdl.NotificationStyle.NotificationStyle",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "assets": [
+  "favorite_border.png",
+  "reply.png",
+  "previous.png",
+  "favorite.png",
+  "play.png",
+  "next.png",
+  "pause.png"
+ ],
+ "name": "NotificationStyle",
+ "helpString": "Notification Style <br> Developed by Jarlisson",
+ "properties": [
+  {
+   "defaultValue": "ChannelA",
+   "name": "Channel",
+   "editorArgs": [],
+   "editorType": "string"
+  },
+  {
+   "defaultValue": "&HFF000000",
+   "name": "ColorNotification",
+   "editorArgs": [],
+   "editorType": "color"
+  },
+  {
+   "defaultValue": "",
+   "name": "IconNotification",
+   "editorArgs": [],
+   "editorType": "asset"
+  },
+  {
+   "defaultValue": "2",
+   "name": "ImportanceChannel",
+   "editorArgs": [],
+   "editorType": "integer"
+  },
+  {
+   "defaultValue": "2",
+   "name": "PriorityNotification",
+   "editorArgs": [],
+   "editorType": "integer"
+  }
+ ],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "CallbackButtonAction",
+   "description": "When clicking on any action button, the name of the respective button will be returned by that block.",
+   "params": [{
+    "name": "nameAction",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "CallbackMessage",
+   "description": "Return of the message typed in the notification.",
+   "params": [
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "timestamp",
+     "type": "number"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CallbackMusicPlayer",
+   "description": "When clicking on any button of the media style notification, the name of the Action is returned in this block.",
+   "params": [{
+    "name": "nameAction",
+    "type": "text"
+   }]
+  }
+ ]
+}]
