@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"219","Source":"Form","Properties":{"$Name":"Screen6","$Type":"Form","$Version":"30","AppName":"swm","BackgroundImage":"pexels-vladislav-vasnetsov-2682683.jpg","Title":"Screen6","Uuid":"0","$Components":[{"$Name":"VerticalArrangement1","$Type":"VerticalArrangement","$Version":"4","AlignHorizontal":"3","AlignVertical":"2","BackgroundColor":"&H00FFFFFF","Height":"-2","Width":"-2","Uuid":"53911029","$Components":[{"$Name":"Label1","$Type":"Label","$Version":"5","FontBold":"True","FontItalic":"True","FontSize":"35","FontTypeface":"2","Height":"-2","Width":"-2","Text":"SMART WASTE MANAGEMENT FOR METROPOLITIAN CITIES","TextAlignment":"1","TextColor":"&HFFE3FFEF","Uuid":"483104756"},{"$Name":"Button1","$Type":"Button","$Version":"7","BackgroundColor":"&HFF0000FF","FontSize":"16","FontTypeface":"2","Shape":"1","Text":"start","TextColor":"&HFFFFFFFF","Uuid":"1587023873"}]}]}}
+|#
