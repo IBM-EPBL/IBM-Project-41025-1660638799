@@ -24,3 +24,6 @@
 ## *DEMONSTRATION LINK* 👇
 ### *FINAL DEMONSTRATION*
  *[CLICK HERE](https://youtu.be/aMgARboZkS4)*
+ ## *WEBSITE LINK* 👇
+ *[CLICK HERE](https://smartwastemanage.github.io/wastemanage/)*
+ 
